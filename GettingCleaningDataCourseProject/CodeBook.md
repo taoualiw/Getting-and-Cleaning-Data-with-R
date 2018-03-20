@@ -1,5 +1,5 @@
-#CodeBook
-##Description
+# CodeBook
+## Description
 Additional information that describes the variables, the data, and any transformations or work  performed to clean up the data.
 ## Where to find the original data  set?
 
@@ -19,7 +19,7 @@ The dataset contains raw and preprocessed body movement information from experim
         -'y_test.txt': Test labels.
         -'subject_train.txt': Each row identifies the subject who performed the activity
         -'subject_test.txt': Each row identifies the subject who performed the activity 
-## What transformations have we applied to the dataset?
+## What transformations have I applied to the dataset?
 
         - Merging the training and the test sets to create one data set.
         - Extracting only the measurements on the mean and standard deviation for each measurement.
