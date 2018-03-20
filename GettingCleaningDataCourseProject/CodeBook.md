@@ -34,7 +34,8 @@ The dataset contains raw and preprocessed body movement information from experim
 
 ### Variables description:
 
-    1-*subjecRef*: volunteer id, [integer], ranges between 1 and 30
+    ### subjecRef:
+    volunteer id, [integer], ranges between 1 and 30
     2-*activity*: experimental task label, [char (string)], could be one of the following
     activities: "LAYING","SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS","WALKING_UPSTAIRS"
     3-*domain*:defines the calculation domain, [char], could be "time" or "frequency"
