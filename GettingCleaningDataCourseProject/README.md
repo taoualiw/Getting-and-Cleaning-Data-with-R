@@ -1,4 +1,3 @@
-#Getting and Cleaning Data Course ProjecYou should create one R script called run_analysis.R that does the following.
 This repo contains the following files:
 
 ## 1. "run_analysis.R":
