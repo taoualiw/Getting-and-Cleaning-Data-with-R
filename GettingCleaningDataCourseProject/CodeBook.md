@@ -1,5 +1,5 @@
-#CodeBook
-##Description
+# CodeBook
+## Description
 Additional information that describes the variables, the data, and any transformations or work  performed to clean up the data.
 ## Where to find the original data  set?
 
@@ -19,7 +19,7 @@ The dataset contains raw and preprocessed body movement information from experim
         -'y_test.txt': Test labels.
         -'subject_train.txt': Each row identifies the subject who performed the activity
         -'subject_test.txt': Each row identifies the subject who performed the activity 
-## What transformations have we applied to the dataset?
+## What transformations have I applied to the dataset?
 
         - Merging the training and the test sets to create one data set.
         - Extracting only the measurements on the mean and standard deviation for each measurement.
@@ -34,16 +34,26 @@ The dataset contains raw and preprocessed body movement information from experim
 
 ### Variables description:
 
-    1-*subjecRef*: volunteer id, [integer], ranges between 1 and 30
-    2-*activity*: experimental task label, [char (string)], could be one of the following
+   #### * subjecRef:
+   volunteer id, [integer], ranges between 1 and 30
+   #### * activity: 
+   experimental task label, [char (string)], could be one of the following
     activities: "LAYING","SITTING","STANDING","WALKING","WALKING_DOWNSTAIRS","WALKING_UPSTAIRS"
-    3-*domain*:defines the calculation domain, [char], could be "time" or "frequency"
-    4-*system*:defines the considered system/frame, [char], could be "body" or "gravity"
-    5-*device*:defines the device used for the raw measure, [char], could be "gyroscope" or "accelerometer"
-    6-*jerk*:whether the feature measure contains jerk signal calculation , [char], could be "TRUE" or "FALSE"    
-    7-*magnitude*: whether the feature measure contains magnitude calculation, [char], could be "TRUE" or "FALSE"
-    8-*axis*: specified for 3-axial measures, [char], could be "X","Y","Z" or "FALSE" if no axis is specified
-    9-*stats*: the selected features measures , [char], could be "mean" or "standardDeviation"
-    10-*average*: the average of each feature (combination of variables 2:9) for each activity and each subject,
+   #### * domain:
+   defines the calculation domain, [char], could be "time" or "frequency"
+   #### * system:
+   defines the considered system/frame, [char], could be "body" or "gravity"
+   #### * device:
+   defines the device used for the raw measure, [char], could be "gyroscope" or "accelerometer"
+   #### * jerk:
+   whether the feature measure contains jerk signal calculation , [char], could be "TRUE" or "FALSE"    
+   #### * magnitude: 
+   whether the feature measure contains magnitude calculation, [char], could be "TRUE" or "FALSE"
+   #### * axis: 
+   specified for 3-axial measures, [char], could be "X","Y","Z" or "FALSE" if no axis is specified
+   #### * stats: 
+   the selected features measures , [char], could be "mean" or "standardDeviation"
+   #### * average: 
+   the average of each feature (combination of variables 2:9) for each activity and each subject,
         [numeric], rangesbetween -1 and 1
 
