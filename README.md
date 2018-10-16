@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Coursera - Getting and Cleaning Data : R Programming Final Course Project
 
 This repo contains the following files:
@@ -16,3 +17,6 @@ This repo contains the following files:
 
 ## 3. "tidy_data.csv"
       CSV file containing the generated tidy data set (11880 observations, 10 variables)
+=======
+## Data Science Online Course Assignments using R 
+>>>>>>> e29f72d4208ab7460d7f2d58645a6c7f571465f0
