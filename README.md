@@ -1,4 +1,4 @@
-Coursera - Getting and Cleaning Data : R Programming Final Course Project
+## Coursera - Getting and Cleaning Data: R Programming Final Course Project
 
 This repo contains the following files:
 
